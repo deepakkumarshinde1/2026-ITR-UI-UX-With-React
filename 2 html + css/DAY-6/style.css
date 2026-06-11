@@ -1,0 +1,16 @@
+h1 {
+            color: red;
+        }
+
+        h2{
+            color: green;
+        }
+
+button{
+    color: white;
+    background-color: red ;
+    border-color: black;
+    border-width:   1px;
+    border-style: dashed; 
+    /* border: none; */
+}
