@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.table{
+    width: 50vw;
+    border-collapse: collapse;
+}
+
+.table > thead > tr > th{
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px 10px;
+
+    background-color: blueviolet;
+    color: white;
+    
+}
+
+.table > tbody > tr > td{
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+     padding: 5px 10px;
+
+}

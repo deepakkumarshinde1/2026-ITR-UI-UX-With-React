@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    display: flex;
+    list-style: none;
+}
+
+.child{
+    /* margin: 10px;top-bottom-left-right */
+    /* margin: 10px 20px; top-bottom left-right  */
+    /* margin: 10px 20px 3px;top left-right  bottom */
+    /* margin: 10px 20px 30px 4px;top right bottom left */
+
+    margin: 5px 10px;
+    padding: 5px 15px;
+    color: white;
+    background-color: red;
+}
