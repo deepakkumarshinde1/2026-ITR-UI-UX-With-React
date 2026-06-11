@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu{
+    background-color: coral;
+    display: flex;
+
+    list-style: none;
+}
+
+.menu-item{
+    background-color: lightseagreen;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px;
+    padding: 10px
+}
