@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Booker Ride</title>
+
+    <!-- Font Awesome 4.7 -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <div class="logo-section">
+            <div class="logo-circle"></div>
+
+            <div>
+                <h1>BookerRide</h1>
+                <p>Book in seconds. Move in minutes.</p>
+            </div>
+        </div>
+
+        <!-- Ride Form -->
+        <div class="ride-form">
+
+            <div class="input-group">
+                <label>
+                    <i class="fa fa-dot-circle-o"></i>
+                    PICKUP
+                </label>
+
+                <div class="input-box">
+                    <i class="fa fa-location-arrow"></i>
+                    <input type="text" placeholder="Search current location"/>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label>
+                    <i class="fa fa-map-marker"></i>
+                    DESTINATION
+                </label>
+
+                <div class="input-box">
+                    <i class="fa fa-search"></i>
+                    <input type="text" placeholder="Where to?"/>
+                </div>
+            </div>
+
+            <div class="ride-buttons">
+                <button class="primary-btn">
+                    <i class="fa fa-car"></i> Find Ride
+                </button>
+
+                <button class="secondary-btn">
+                    <i class="fa fa-clock-o"></i> Schedule
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Ride Types -->
+        <div class="section-title">
+            CHOOSE A RIDE
+        </div>
+
+        <div class="ride-card active">
+            <div class="ride-left">
+
+                <div class="ride-icon">
+                    🏍️
+                </div>
+
+                <div>
+                    <h3>Booker Bike</h3>
+                    <p>Beat traffic • 1 seat</p>
+                </div>
+
+            </div>
+
+            <div class="ride-right">
+                <span>₹89</span>
+                <small>
+                    <i class="fa fa-clock-o"></i>
+                    2-5 min
+                </small>
+            </div>
+        </div>
+
+        <div class="ride-card">
+            <div class="ride-left">
+
+                <div class="ride-icon">
+                    🛺
+                </div>
+
+                <div>
+                    <h3>Booker Auto</h3>
+                    <p>Quick & affordable • 3 seats</p>
+                </div>
+
+            </div>
+
+            <div class="ride-right">
+                <span>₹149</span>
+                <small>
+                    <i class="fa fa-clock-o"></i>
+                    3-7 min
+                </small>
+            </div>
+        </div>
+
+        <div class="ride-card">
+            <div class="ride-left">
+
+                <div class="ride-icon">
+                    🚖
+                </div>
+
+                <div>
+                    <h3>Booker Cab</h3>
+                    <p>Comfortable AC ride • 4 seats</p>
+                </div>
+
+            </div>
+
+            <div class="ride-right">
+                <span>₹249</span>
+                <small>
+                    <i class="fa fa-clock-o"></i>
+                    5-10 min
+                </small>
+            </div>
+        </div>
+
+        <div class="ride-card">
+            <div class="ride-left">
+
+                <div class="ride-icon">
+                    🚙
+                </div>
+
+                <div>
+                    <h3>Booker XL</h3>
+                    <p>Family trip • 6 seats</p>
+                </div>
+
+            </div>
+
+            <div class="ride-right">
+                <span>₹399</span>
+                <small>
+                    <i class="fa fa-clock-o"></i>
+                    8-12 min
+                </small>
+            </div>
+        </div>
+
+        <!-- Bottom Menu -->
+        <div class="bottom-menu">
+
+            <div class="menu-item active-menu">
+                <i class="fa fa-home"></i>
+                <span>Home</span>
+            </div>
+
+            <div class="menu-item">
+                <i class="fa fa-history"></i>
+                <span>Trips</span>
+            </div>
+
+            <div class="menu-item">
+                <i class="fa fa-credit-card"></i>
+                <span>Payments</span>
+            </div>
+
+            <div class="menu-item">
+                <i class="fa fa-user"></i>
+                <span>Profile</span>
+            </div>
+
+        </div>
+
+    </aside>
+
+    <!-- Map Area -->
+    <main class="map-section">
+
+        <div class="top-bar">
+
+            <div class="search-bar">
+                <i class="fa fa-search"></i>
+                <input type="text" placeholder="Search area or destination"/>
+            </div>
+
+            <div class="top-icons">
+
+                <div class="icon-btn">
+                    <i class="fa fa-bell"></i>
+                </div>
+
+                <div class="icon-btn">
+                    <i class="fa fa-user-circle"></i>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Fake Map -->
+        <div class="map-overlay">
+
+            <div class="map-message">
+                <i class="fa fa-map-marker"></i>
+                Set pickup location to see nearby rides
+            </div>
+
+            <div class="map-controls">
+
+                <button>
+                    <i class="fa fa-plus"></i>
+                </button>
+
+                <button>
+                    <i class="fa fa-minus"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+</body>
+</html>
