@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 50px;
+}
+
+.top{
+    background-color: #a80000;
+    height: 65vh;
+}
+
+.btn{
+   background-color: transparent; 
+   border: none;
+   color: white;
+
+   padding: 5px 15px;
+   margin: 15px 0;
+
+   font-size: 24px;
+}
+
+.create-account{
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+}
+
+.brand-section{
+    display: flex;
+    justify-content: center;
+}
+
+.brand{
+    height: 150px;
+    width: 150px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    font-size: 96px;
+
+    border-radius: 50%;
+    color: red;
+
+    margin: 20px 0;
+
+}
+
+.title{
+   font-size: 24px;
+   color: white; 
+   margin: 10px 0px;
+
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.input-box{
+    font-size: 18px;
+    padding: 16px;
+}
+
+.restaurant-search{
+    width: 40vw;
+}
+
+
+/* #861c1c => hex color color
+
+red 8 6 => 00 ... ff
+green 1c => 00 ... ff
+blue 1c => 00 .. ff
+
+0 1 2 3 4 5 6 7 8 9 a b c d e f
+*/

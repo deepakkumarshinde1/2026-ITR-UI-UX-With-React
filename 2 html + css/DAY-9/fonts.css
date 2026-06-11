@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text{
+    /* font-size: 106px; */
+    font-size: 64px;
+    font-style: italic;
+    font-weight: bold;
+}
